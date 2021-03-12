@@ -1,0 +1,16 @@
+{
+  "name": "schoonheidssalonhelmich.nl",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:martijnvdbrug/schoonheidssalonhelmich.nl.git",
+  "author": "martijn@pinelab.studio",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "gridsome": "^0.7.23",
+    "webpack-node-externals": "^2.5.2"
+  },
+  "dependencies": {
+    "vuetify": "^2.4.6"
+  }
+}

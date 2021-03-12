@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="92cc75d1-6f92-47f8-9e40-4963d9094d2e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/schoonheidssalonhelmich.nl.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gridsome.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gridsome.server.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/articles/adventurealtitude.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/articles/adventurecave.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/articles/ancient.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/articles/ancientruins.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/articles/artoftravel.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/articles/autumnclouds.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/articles/beachjar.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/articles/blurcamera.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/articles/christmas.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/articles/firepots.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/articles/garden.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/articles/greengrass.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/articles/jellyfish.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/articles/july4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/articles/lightcave.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/articles/marketgrains.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/articles/moroccandays.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/articles/mountain.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/articles/mountaincabin.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/articles/pigduck.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/articles/rain.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/articles/ruins.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/articles/snowcabin.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/articles/snowcup.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/articles/spices.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/articles/swedishfishing.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/articles/umbrella.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/instagram/adventurealtitude.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/instagram/garden.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/instagram/pigduck.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/instagram/rain.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/instagram/spices.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/instagram/sunset.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Feed.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/FeedCard.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Instagram.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/NewestPosts.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Tags.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/base/Btn.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/base/Card.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/base/Subheading.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/core/AppBar.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/core/Cta.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/core/Drawer.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/core/Footer.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/home/About.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/home/Articles.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/home/Banner.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/home/Social.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/home/Subscribe.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/articles.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/links.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/favicon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layouts/Default.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/helmich-logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1pegHBRBcNrbjhUQKRAm0q6IB0p" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/static" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/static" />
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/src/pages" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="92cc75d1-6f92-47f8-9e40-4963d9094d2e" name="Default Changelist" comment="" />
+      <created>1615548879886</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1615548879886</updated>
+      <workItem from="1615548880978" duration="9995000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2529" y="310" width="426" height="493" key="FileChooserDialogImpl" timestamp="1615550814537">
+      <screen x="1440" y="0" width="2560" height="1080" />
+    </state>
+    <state x="2529" y="310" width="426" height="493" key="FileChooserDialogImpl/1440.0.2560.1080/0.270.1440.810@1440.0.2560.1080" timestamp="1615550814537" />
+    <state x="1935" y="202" width="1519" height="628" key="find.popup" timestamp="1615560322155">
+      <screen x="1440" y="0" width="2560" height="1080" />
+    </state>
+    <state x="1935" y="202" width="1519" height="628" key="find.popup/1440.0.2560.1080/0.270.1440.810@1440.0.2560.1080" timestamp="1615560322155" />
+  </component>
+</project>

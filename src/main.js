@@ -1,5 +1,5 @@
 import Vuetify from 'vuetify';
-import 'vuetify/dist/vuetify.min.css'
+import 'vuetify/dist/vuetify.min.css';
 import DefaultLayout from '~/layouts/Default.vue';
 import BaseBtn from '@/components/base/Btn'
 import BaseCard from '@/components/base/Card'
@@ -11,11 +11,11 @@ export default function (Vue, {appOptions, router, head, isClient}) {
         theme: {
             themes: {
                 light: {
-                    primary: '#CBAA5C',
-                    secondary: '#083759',
+                    primary: '#1D7874',
+                    secondary: '#52414C',
                 },
-            },
-        },
+            }
+        }
     });
     Vue.component('Layout', DefaultLayout);
     Vue.component(BaseBtn.name, BaseBtn);

@@ -2,45 +2,34 @@
   <v-navigation-drawer
       v-model="$store.drawer"
       app
-      dark
+      color="white"
       temporary
   >
     <v-list>
       <v-list-item
-          v-for="(link, i) in links"
-          :key="i"
-          :to="link.to"
-          :href="link.href"
-          @click="onClick($event, link)"
-      >
-        <v-list-item-title v-text="link.text"/>
+          v-for="(link, i) in global.links"
+          :key="i">
+        <g-link :to="link.href" class="no-anchor">
+          <v-list-item-title v-text="link.text"/>
+        </g-link>
+      </v-list-item>
+      <v-list-item>
+        <a :href="global.afspraakPlanner" class="no-anchor">
+          <v-list-item-title>Afspraak inplannen</v-list-item-title>
+        </a>
       </v-list-item>
     </v-list>
   </v-navigation-drawer>
 </template>
 
 <script>
-const links = require('@/data/links.json');
+const global = require('@/data/global.json');
 export default {
   name: 'CoreDrawer',
   data() {
     return {
-      links
+      global
     }
-  },
-
-  methods: {
-    onClick(e, item) {
-      e.stopPropagation()
-      if (item.to === '/') {
-        this.$vuetify.goTo(0)
-        this.$store.drawer = false;
-        return
-      }
-      if (item.to || !item.href) return
-      this.$vuetify.goTo(item.href)
-      this.$store.drawer = false;
-    },
-  },
+  }
 }
 </script>

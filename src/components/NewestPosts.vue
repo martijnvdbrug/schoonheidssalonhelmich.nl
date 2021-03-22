@@ -13,7 +13,7 @@
         cols="12"
       >
         <v-img
-          :src="require(`@/assets/articles/${article.hero}`)"
+          :src="require(`@/assets/${article.hero}`)"
           class="mr-3"
           height="36"
           max-width="36"

@@ -1,33 +1,64 @@
 <template>
   <Layout>
-    <div id="home">
-      <articles>
-        <banner/>
-      </articles>
-      <!--
+      <section id="belachelijk">
+        <v-container>
+          <v-row>
+            <v-col cols="12">
+              <base-card dark>
+                <v-img
+                    :src="home.image"
+                    class="grey lighten-2"
+                    width="100%"
+                    height="600"
+                >
+                  <v-row
+                      class="fill-height pa-3"
+                      align="center"
+                  >
+                    <v-col
+                        cols="12"
+                        md="8"
+                        offset="0"
+                        offset-md="2"
+                        class="overlay"
+                    >
+                      <h1>
+                        {{ home.title }}
+                      </h1>
 
-          <about />
-      -->
+                      <p>
+                        {{ home.body }}
+                      </p>
+                    </v-col>
+                  </v-row>
+                </v-img>
+              </base-card>
+            </v-col>
 
-      <!--    <subscribe />
+            <feed-card
+                v-for="block in home.blocks"
+                :key="block.title"
+                :size="3"
+                :title="block.title"
+                :img="block.image"
+                :link="block.link"
+            />
+          </v-row>
 
-          <social />-->
-    </div>
+        </v-container>
+      </section>
   </Layout>
 </template>
 
 <script>
+import home from '@/data/home.json';
 export default {
-  name: 'Home',
-  mounted() {
-    console.log(this);
-  },
+
   components: {
-    About: () => import('../components/home/About'),
-    Articles: () => import('../components/home/Articles'),
-    Banner: () => import('../components/home/Banner'),
-    /*      Social: () => import('@/components/home/Social'),
-          Subscribe: () => import('@/components/home/Subscribe'),*/
+    FeedCard: () => import('../components/FeedCard'),
   },
+  data: () => ({
+    home,
+  })
 }
 </script>

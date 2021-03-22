@@ -1,0 +1,35 @@
+{
+  "telefoon": "0332571910",
+  "telefoonDisplay": "033 - 257 19 10",
+  "email": "helmich@hooglanderveen.eu",
+  "facebook": "https://www.facebook.com/uwschoonheidsspecialistinhooglanderveen",
+  "straat": "van Tuyllstraat 15",
+  "postcodePlaats": "3829 AA Hooglanderveen",
+  "afspraakPlanner": "https://dingen.nl",
+  "links": [
+    {
+      "text": "Gezichtsbehandeling",
+      "href": "/gezichtsbehandeling/"
+    },
+    {
+      "text": "Henna brows",
+      "href": "/henna-brows/"
+    },
+    {
+      "text": "Webshop",
+      "href": "/webshop/"
+    },
+    {
+      "text": "Over ons",
+      "href": "/over-ons/"
+    },
+    {
+      "text": "Tarieven",
+      "href": "/tarieven/"
+    },
+    {
+      "text": "Contact",
+      "href": "/contact/"
+    }
+  ]
+}

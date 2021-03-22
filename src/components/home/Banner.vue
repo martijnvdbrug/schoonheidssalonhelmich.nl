@@ -1,10 +1,10 @@
 <template>
   <base-card dark>
     <v-img
-      :src="require('@/assets/articles/blurcamera.jpg')"
+      :src="home.image"
       class="grey lighten-2"
-      height="400"
       width="100%"
+      height="600"
     >
       <v-row
         class="fill-height pa-3"
@@ -12,23 +12,18 @@
       >
         <v-col
           cols="12"
-          md="7"
-          offset-md="5"
+          md="8"
+          offset="0"
+          offset-md="2"
+          class="overlay"
         >
-          <h1 class="display-3 font-weight-light">
-            The Art Of Travel
+          <h1>
+            {{ home.title }}
           </h1>
 
-          <div class="subheading text-uppercase pl-2 mb-4">
-            Finding Beauty, One flight at a time
-          </div>
-
-          <v-btn
-            color="primary"
-            depressed
-          >
-            Subscribe
-          </v-btn>
+          <p>
+            {{ home.body }}
+          </p>
         </v-col>
       </v-row>
     </v-img>
@@ -36,7 +31,12 @@
 </template>
 
 <script>
+import home from '@/data/home.json';
   export default {
-    name: 'HomeBanner',
+    data() {
+      return {
+        home
+      }
+    }
   }
 </script>

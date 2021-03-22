@@ -1,16 +1,15 @@
 <template>
-  <v-app>
+  <v-app style="font-family: 'Montserrat', sans-serif; color: #1f1f1f;">
     <core-app-bar/>
 
     <core-drawer/>
 
-    <v-content id="home">
-      <slot/>
-    </v-content>
+    <slot/>
 
+    <br/>
+    <br/>
     <core-footer/>
 
-    <core-cta/>
   </v-app>
 </template>
 
@@ -28,3 +27,18 @@ export default {
   }
 }
 </script>
+<style>
+.overlay {
+  background-color: rgba(82, 65, 76, 0.6);
+}
+
+h1 {
+  font-weight: 400;
+  font-size: 2rem;
+}
+
+a.no-anchor {
+  color: inherit !important;
+  text-decoration: inherit !important;
+}
+</style>

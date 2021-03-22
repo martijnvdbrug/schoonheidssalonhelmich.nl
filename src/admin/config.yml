@@ -6,9 +6,11 @@ media_folder: "static/img"
 public_folder: "/img"
 
 collections:
-  - name: "global"
-    label: "Algemene gegevens"
-    folder: "data/global"
-    create: false
-    fields:
-      - {label: "telefoon", name: "telefoon", widget: "string"}
+  - label: "Pages"
+    name: "pages"
+    files:
+      - label: "Algemene gegevens"
+        name: "global"
+        file: "data/global.json"
+        fields:
+          - {label: Telefoonnummer, name: telefoon, widget: string}

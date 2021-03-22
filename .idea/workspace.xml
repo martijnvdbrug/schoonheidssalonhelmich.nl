@@ -13,15 +13,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="92cc75d1-6f92-47f8-9e40-4963d9094d2e" name="Default Changelist" comment="Finished homepage">
-      <change afterPath="$PROJECT_DIR$/src/admin/config.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/admin/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/admin/index.js" afterDir="false" />
+    <list default="true" id="92cc75d1-6f92-47f8-9e40-4963d9094d2e" name="Default Changelist" comment="Netlify admin stuff">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gridsome.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/gridsome.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/global.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/global/global.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/admin/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/admin/config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/global/global.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/global.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,11 +57,11 @@
       <recent name="$PROJECT_DIR$/src/pages" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/data" />
       <recent name="$PROJECT_DIR$/src/data/global" />
       <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/static/img" />
       <recent name="$PROJECT_DIR$/src/assets" />
-      <recent name="$PROJECT_DIR$/src/assets/images" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -80,7 +75,7 @@
       <workItem from="1615548880978" duration="10251000" />
       <workItem from="1615899788244" duration="15727000" />
       <workItem from="1615971769126" duration="9000" />
-      <workItem from="1616414455439" duration="12950000" />
+      <workItem from="1616414455439" duration="13180000" />
     </task>
     <task id="LOCAL-00001" summary="First setup using vuetify">
       <created>1615560928618</created>
@@ -96,7 +91,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616425728654</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Netlify admin stuff">
+      <created>1616429353454</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1616429353454</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -117,7 +119,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First setup using vuetify" />
     <MESSAGE value="Finished homepage" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finished homepage" />
+    <MESSAGE value="Netlify admin stuff" />
+    <option name="LAST_COMMIT_MESSAGE" value="Netlify admin stuff" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2529" y="310" width="426" height="493" key="FileChooserDialogImpl" timestamp="1615550814537">
@@ -128,10 +131,10 @@
       <screen x="1440" y="0" width="2560" height="1080" />
     </state>
     <state x="2235" y="188" width="1024" height="737" key="SettingsEditor/1440.0.2560.1080/0.270.1440.810@1440.0.2560.1080" timestamp="1616418311963" />
-    <state x="2341" y="285" width="802" height="543" key="Vcs.Push.Dialog.v2" timestamp="1616425875802">
+    <state x="2341" y="285" width="802" height="543" key="Vcs.Push.Dialog.v2" timestamp="1616429354943">
       <screen x="1440" y="0" width="2560" height="1080" />
     </state>
-    <state x="2341" y="285" width="802" height="543" key="Vcs.Push.Dialog.v2/1440.0.2560.1080/0.270.1440.810@1440.0.2560.1080" timestamp="1616425875802" />
+    <state x="2341" y="285" width="802" height="543" key="Vcs.Push.Dialog.v2/1440.0.2560.1080/0.270.1440.810@1440.0.2560.1080" timestamp="1616429354943" />
     <state x="1935" y="202" width="1519" height="628" key="find.popup" timestamp="1616429260390">
       <screen x="1440" y="0" width="2560" height="1080" />
     </state>

@@ -6,11 +6,19 @@ media_folder: "static/img"
 public_folder: "/img"
 
 collections:
-  - label: "Pages"
-    name: "pages"
+  - label: "Paginas"
+    name: "paginas"
+    editor:
+      preview: false
     files:
       - label: "Algemene gegevens"
         name: "global"
-        file: "data/global.json"
+        file: "src/data/global.json"
         fields:
           - {label: Telefoonnummer, name: telefoon, widget: string}
+          - {label: Telefoonnummer weergave, name: telefoonDisplay, widget: string}
+          - {label: Emailadres, name: email, widget: string}
+          - {label: Facebook link, name: facebook, widget: string}
+          - {label: Straat en huisnummer, name: straat, widget: string}
+          - {label: Postcode en plaats, name: postcodePlaats, widget: string}
+          - {label: Afsprakenplanner link, name: afspraakPlanner, widget: string}

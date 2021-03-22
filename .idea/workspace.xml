@@ -13,64 +13,14 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="92cc75d1-6f92-47f8-9e40-4963d9094d2e" name="Default Changelist" comment="First setup using vuetify">
-      <change afterPath="$PROJECT_DIR$/src/data/global.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/home.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/img/banner.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="92cc75d1-6f92-47f8-9e40-4963d9094d2e" name="Default Changelist" comment="Finished homepage">
+      <change afterPath="$PROJECT_DIR$/src/admin/config.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/admin/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/admin/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gridsome.server.js" beforeDir="false" afterPath="$PROJECT_DIR$/gridsome.server.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/articles/adventurealtitude.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/articles/adventurecave.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/articles/ancient.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/articles/ancientruins.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/articles/artoftravel.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/articles/autumnclouds.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/articles/beachjar.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/articles/blurcamera.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/articles/christmas.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/articles/firepots.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/articles/garden.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/articles/greengrass.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/articles/jellyfish.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/articles/july4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/articles/lightcave.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/articles/marketgrains.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/articles/moroccandays.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/articles/mountain.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/articles/mountaincabin.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/articles/pigduck.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/articles/rain.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/articles/ruins.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/articles/snowcabin.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/articles/snowcup.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/articles/spices.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/articles/swedishfishing.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/articles/umbrella.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/instagram/adventurealtitude.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/instagram/garden.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/instagram/pigduck.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/instagram/rain.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/instagram/spices.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/instagram/sunset.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Feed.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/FeedCard.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/FeedCard.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/NewestPosts.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NewestPosts.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/core/AppBar.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/core/AppBar.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/core/Drawer.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/core/Drawer.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/core/Footer.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/core/Footer.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/home/Articles.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/Articles.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/home/Banner.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/Banner.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/articles.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/links.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/favicon.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/favicon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layouts/Default.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/Default.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Index.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/helmich-logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/helmich-logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gridsome.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/gridsome.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/global.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/global/global.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -112,11 +62,11 @@
       <recent name="$PROJECT_DIR$/src/pages" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/data/global" />
       <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/static/img" />
       <recent name="$PROJECT_DIR$/src/assets" />
       <recent name="$PROJECT_DIR$/src/assets/images" />
-      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -130,7 +80,7 @@
       <workItem from="1615548880978" duration="10251000" />
       <workItem from="1615899788244" duration="15727000" />
       <workItem from="1615971769126" duration="9000" />
-      <workItem from="1616414455439" duration="10590000" />
+      <workItem from="1616414455439" duration="12950000" />
     </task>
     <task id="LOCAL-00001" summary="First setup using vuetify">
       <created>1615560928618</created>
@@ -139,7 +89,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615560928618</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Finished homepage">
+      <created>1616425728654</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1616425728654</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -159,7 +116,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First setup using vuetify" />
-    <option name="LAST_COMMIT_MESSAGE" value="First setup using vuetify" />
+    <MESSAGE value="Finished homepage" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished homepage" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2529" y="310" width="426" height="493" key="FileChooserDialogImpl" timestamp="1615550814537">
@@ -170,14 +128,14 @@
       <screen x="1440" y="0" width="2560" height="1080" />
     </state>
     <state x="2235" y="188" width="1024" height="737" key="SettingsEditor/1440.0.2560.1080/0.270.1440.810@1440.0.2560.1080" timestamp="1616418311963" />
-    <state x="2341" y="285" width="802" height="543" key="Vcs.Push.Dialog.v2" timestamp="1615560930058">
+    <state x="2341" y="285" width="802" height="543" key="Vcs.Push.Dialog.v2" timestamp="1616425875802">
       <screen x="1440" y="0" width="2560" height="1080" />
     </state>
-    <state x="2341" y="285" width="802" height="543" key="Vcs.Push.Dialog.v2/1440.0.2560.1080/0.270.1440.810@1440.0.2560.1080" timestamp="1615560930058" />
-    <state x="1935" y="202" width="1519" height="628" key="find.popup" timestamp="1616425280877">
+    <state x="2341" y="285" width="802" height="543" key="Vcs.Push.Dialog.v2/1440.0.2560.1080/0.270.1440.810@1440.0.2560.1080" timestamp="1616425875802" />
+    <state x="1935" y="202" width="1519" height="628" key="find.popup" timestamp="1616429260390">
       <screen x="1440" y="0" width="2560" height="1080" />
     </state>
-    <state x="1935" y="202" width="1519" height="628" key="find.popup/1440.0.2560.1080/0.270.1440.810@1440.0.2560.1080" timestamp="1616425280877" />
+    <state x="1935" y="202" width="1519" height="628" key="find.popup/1440.0.2560.1080/0.270.1440.810@1440.0.2560.1080" timestamp="1616429260390" />
     <state x="2411" y="252" key="run.anything.popup" timestamp="1616422104547">
       <screen x="1440" y="0" width="2560" height="1080" />
     </state>

@@ -1,0 +1,14 @@
+backend:
+  name: github
+  repo: martijnvdbrug/schoonheidssalonhelmich.nl
+
+media_folder: "static/img"
+public_folder: "/img"
+
+collections:
+  - name: "global"
+    label: "Algemene gegevens"
+    folder: "data/global"
+    create: false
+    fields:
+      - {label: "telefoon", name: "telefoon", widget: "string"}

@@ -11,6 +11,8 @@
     "webpack-node-externals": "^2.5.2"
   },
   "dependencies": {
+    "gridsome-plugin-netlify-cms": "^1.0.9",
+    "netlify-cms": "^2.10.102",
     "vuetify": "^2.4.6"
   }
 }

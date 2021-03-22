@@ -13,9 +13,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="92cc75d1-6f92-47f8-9e40-4963d9094d2e" name="Default Changelist" comment="more tryouts">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/global.json" beforeDir="false" />
+    <list default="true" id="92cc75d1-6f92-47f8-9e40-4963d9094d2e" name="Default Changelist" comment="This config works for netlify cms (global data)">
       <change beforePath="$PROJECT_DIR$/src/admin/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/admin/config.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -75,7 +73,7 @@
       <workItem from="1615548880978" duration="10251000" />
       <workItem from="1615899788244" duration="15727000" />
       <workItem from="1615971769126" duration="9000" />
-      <workItem from="1616414455439" duration="13520000" />
+      <workItem from="1616414455439" duration="14044000" />
     </task>
     <task id="LOCAL-00001" summary="First setup using vuetify">
       <created>1615560928618</created>
@@ -105,7 +103,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616429553997</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="This config works for netlify cms (global data)">
+      <created>1616429933855</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1616429933855</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -128,7 +133,8 @@
     <MESSAGE value="Finished homepage" />
     <MESSAGE value="Netlify admin stuff" />
     <MESSAGE value="more tryouts" />
-    <option name="LAST_COMMIT_MESSAGE" value="more tryouts" />
+    <MESSAGE value="This config works for netlify cms (global data)" />
+    <option name="LAST_COMMIT_MESSAGE" value="This config works for netlify cms (global data)" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1594" y="127" width="2306" height="853" key="DiffContextDialog" timestamp="1616429684822">
@@ -143,10 +149,10 @@
       <screen x="1440" y="0" width="2560" height="1080" />
     </state>
     <state x="2235" y="188" width="1024" height="737" key="SettingsEditor/1440.0.2560.1080/0.270.1440.810@1440.0.2560.1080" timestamp="1616418311963" />
-    <state x="2341" y="285" width="802" height="543" key="Vcs.Push.Dialog.v2" timestamp="1616429555439">
+    <state x="2341" y="285" width="802" height="543" key="Vcs.Push.Dialog.v2" timestamp="1616429934959">
       <screen x="1440" y="0" width="2560" height="1080" />
     </state>
-    <state x="2341" y="285" width="802" height="543" key="Vcs.Push.Dialog.v2/1440.0.2560.1080/0.270.1440.810@1440.0.2560.1080" timestamp="1616429555439" />
+    <state x="2341" y="285" width="802" height="543" key="Vcs.Push.Dialog.v2/1440.0.2560.1080/0.270.1440.810@1440.0.2560.1080" timestamp="1616429934959" />
     <state x="1935" y="202" width="1519" height="628" key="find.popup" timestamp="1616429260390">
       <screen x="1440" y="0" width="2560" height="1080" />
     </state>

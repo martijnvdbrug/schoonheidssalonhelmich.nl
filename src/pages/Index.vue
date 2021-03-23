@@ -1,6 +1,6 @@
 <template>
   <Layout>
-      <section id="belachelijk">
+      <section id="home">
         <v-container>
           <v-row>
             <v-col cols="12">

@@ -13,14 +13,23 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="92cc75d1-6f92-47f8-9e40-4963d9094d2e" name="Default Changelist" comment="This config works for netlify cms (global data)">
+    <list default="true" id="92cc75d1-6f92-47f8-9e40-4963d9094d2e" name="Default Changelist" comment="More admin config">
+      <change afterPath="$PROJECT_DIR$/src/data/gezichtsbehandeling.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Gezichtsbehandeling.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/admin/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/admin/config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Index.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="package.json" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -36,7 +45,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="add_unversioned_files" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/static" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/data" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -49,18 +58,19 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/static" />
-      <recent name="$PROJECT_DIR$/src/assets/images" />
-      <recent name="$PROJECT_DIR$/src" />
-      <recent name="$PROJECT_DIR$/src/pages" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/data" />
       <recent name="$PROJECT_DIR$/src/data/global" />
       <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/static/img" />
       <recent name="$PROJECT_DIR$/src/assets" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/data" />
+      <recent name="$PROJECT_DIR$/static" />
+      <recent name="$PROJECT_DIR$/src/assets/images" />
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/src/pages" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -76,7 +86,7 @@
       <workItem from="1615971769126" duration="9000" />
       <workItem from="1616414455439" duration="14044000" />
       <workItem from="1616485944395" duration="608000" />
-      <workItem from="1616501110571" duration="606000" />
+      <workItem from="1616501110571" duration="3432000" />
     </task>
     <task id="LOCAL-00001" summary="First setup using vuetify">
       <created>1615560928618</created>
@@ -113,7 +123,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616429933855</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="More admin config">
+      <created>1616504089687</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1616504089687</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -137,7 +154,8 @@
     <MESSAGE value="Netlify admin stuff" />
     <MESSAGE value="more tryouts" />
     <MESSAGE value="This config works for netlify cms (global data)" />
-    <option name="LAST_COMMIT_MESSAGE" value="This config works for netlify cms (global data)" />
+    <MESSAGE value="More admin config" />
+    <option name="LAST_COMMIT_MESSAGE" value="More admin config" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1594" y="127" width="2306" height="853" key="DiffContextDialog" timestamp="1616429684822">
@@ -164,9 +182,9 @@
       <screen x="1440" y="0" width="2560" height="1080" />
     </state>
     <state x="2411" y="252" key="run.anything.popup/1440.0.2560.1080/0.270.1440.810@1440.0.2560.1080" timestamp="1616422104547" />
-    <state x="2410" y="259" width="672" height="678" key="search.everywhere.popup" timestamp="1616429623853">
+    <state x="2410" y="259" width="672" height="678" key="search.everywhere.popup" timestamp="1616505579941">
       <screen x="1440" y="0" width="2560" height="1080" />
     </state>
-    <state x="2410" y="259" width="672" height="678" key="search.everywhere.popup/1440.0.2560.1080/0.270.1440.810@1440.0.2560.1080" timestamp="1616429623853" />
+    <state x="2410" y="259" width="672" height="678" key="search.everywhere.popup/1440.0.2560.1080/0.270.1440.810@1440.0.2560.1080" timestamp="1616505579941" />
   </component>
 </project>

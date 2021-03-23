@@ -1,0 +1,19 @@
+{
+  "title": "Tarieven",
+  "body": "Hieronder vindt u de tarieven die wij hanteren bij Schoonheidssalon Helmich.",
+  "categories": [
+    {
+      "title": "Verzorgende gezichtsbehandelingen",
+      "items": [
+        {
+          "name": "90 minuten",
+          "price": "62,50 v.a."
+        },
+        {
+          "name": "60 minuten",
+          "price": "62,50 v.a."
+        }
+      ]
+    }
+  ]
+}

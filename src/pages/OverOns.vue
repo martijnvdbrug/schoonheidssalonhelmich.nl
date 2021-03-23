@@ -2,12 +2,6 @@
   <Layout>
     <section id="gezichtsbehandeling">
       <v-container>
-
-        <div v-if="selectedImage" max-width="85vw">
-          <img :src="selectedImage" alt="" width="100%" @click.stop="selectedImage = null">
-          <hr>
-        </div>
-
         <v-row>
           <v-col cols="12">
             <base-card dark>
@@ -38,7 +32,8 @@
               v-on:click="selectedImage = data.image">
             <v-img
                 :src="img"
-                height="200"/>
+                height="200"
+            />
           </v-col>
         </v-row>
 
@@ -62,7 +57,7 @@
 </template>
 
 <script>
-import data from '@/data/gezichtsbehandeling.json';
+import data from '@/data/over-ons.json';
 
 export default {
   data: () => ({

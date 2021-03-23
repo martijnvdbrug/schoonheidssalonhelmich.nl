@@ -13,10 +13,25 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="92cc75d1-6f92-47f8-9e40-4963d9094d2e" name="Default Changelist" comment="Added gezichtsbehandeling page">
+    <list default="true" id="92cc75d1-6f92-47f8-9e40-4963d9094d2e" name="Default Changelist" comment="Admin ui tests">
+      <change afterPath="$PROJECT_DIR$/src/data/henna-brows.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/over-ons.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/tarieven.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Contact.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/HennaBrows.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/OverOns.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Tarieven.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/admin/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/admin/config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/FeedCard.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/FeedCard.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/core/AppBar.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/core/AppBar.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/core/Footer.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/core/Footer.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/data/gezichtsbehandeling.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/gezichtsbehandeling.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/global.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/global.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/home.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/home.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/Default.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/Default.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Gezichtsbehandeling.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Gezichtsbehandeling.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Index.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +59,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="add_unversioned_files" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/data" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/pages" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -65,11 +80,11 @@
       <recent name="$PROJECT_DIR$/src/assets" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/pages" />
       <recent name="$PROJECT_DIR$/src/data" />
       <recent name="$PROJECT_DIR$/static" />
       <recent name="$PROJECT_DIR$/src/assets/images" />
       <recent name="$PROJECT_DIR$/src" />
-      <recent name="$PROJECT_DIR$/src/pages" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -85,7 +100,7 @@
       <workItem from="1615971769126" duration="9000" />
       <workItem from="1616414455439" duration="14044000" />
       <workItem from="1616485944395" duration="608000" />
-      <workItem from="1616501110571" duration="4860000" />
+      <workItem from="1616501110571" duration="10748000" />
     </task>
     <task id="LOCAL-00001" summary="First setup using vuetify">
       <created>1615560928618</created>
@@ -136,7 +151,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616508281358</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Admin ui tests">
+      <created>1616509743720</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1616509743720</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -162,17 +184,22 @@
     <MESSAGE value="This config works for netlify cms (global data)" />
     <MESSAGE value="More admin config" />
     <MESSAGE value="Added gezichtsbehandeling page" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added gezichtsbehandeling page" />
+    <MESSAGE value="Admin ui tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="Admin ui tests" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1594" y="127" width="2306" height="853" key="DiffContextDialog" timestamp="1616429684822">
+    <state x="1594" y="127" width="2306" height="853" key="DiffContextDialog" timestamp="1616512504931">
       <screen x="1440" y="0" width="2560" height="1080" />
     </state>
-    <state x="1594" y="127" width="2306" height="853" key="DiffContextDialog/1440.0.2560.1080/0.270.1440.810@1440.0.2560.1080" timestamp="1616429684822" />
+    <state x="1594" y="127" width="2306" height="853" key="DiffContextDialog/1440.0.2560.1080/0.270.1440.810@1440.0.2560.1080" timestamp="1616512504931" />
     <state x="2529" y="310" width="426" height="493" key="FileChooserDialogImpl" timestamp="1615550814537">
       <screen x="1440" y="0" width="2560" height="1080" />
     </state>
     <state x="2529" y="310" width="426" height="493" key="FileChooserDialogImpl/1440.0.2560.1080/0.270.1440.810@1440.0.2560.1080" timestamp="1615550814537" />
+    <state x="2489" y="239" width="496" height="642" key="RollbackChangesDialog" timestamp="1616512510496">
+      <screen x="1440" y="0" width="2560" height="1080" />
+    </state>
+    <state x="2489" y="239" width="496" height="642" key="RollbackChangesDialog/1440.0.2560.1080/0.270.1440.810@1440.0.2560.1080" timestamp="1616512510496" />
     <state x="2235" y="188" width="1024" height="737" key="SettingsEditor" timestamp="1616418311963">
       <screen x="1440" y="0" width="2560" height="1080" />
     </state>
@@ -181,17 +208,17 @@
       <screen x="1440" y="0" width="2560" height="1080" />
     </state>
     <state x="2341" y="285" width="802" height="543" key="Vcs.Push.Dialog.v2/1440.0.2560.1080/0.270.1440.810@1440.0.2560.1080" timestamp="1616508283176" />
-    <state x="1935" y="202" width="1519" height="628" key="find.popup" timestamp="1616429260390">
+    <state x="1935" y="202" width="1519" height="628" key="find.popup" timestamp="1616515042938">
       <screen x="1440" y="0" width="2560" height="1080" />
     </state>
-    <state x="1935" y="202" width="1519" height="628" key="find.popup/1440.0.2560.1080/0.270.1440.810@1440.0.2560.1080" timestamp="1616429260390" />
+    <state x="1935" y="202" width="1519" height="628" key="find.popup/1440.0.2560.1080/0.270.1440.810@1440.0.2560.1080" timestamp="1616515042938" />
     <state x="2411" y="252" key="run.anything.popup" timestamp="1616422104547">
       <screen x="1440" y="0" width="2560" height="1080" />
     </state>
     <state x="2411" y="252" key="run.anything.popup/1440.0.2560.1080/0.270.1440.810@1440.0.2560.1080" timestamp="1616422104547" />
-    <state x="2410" y="259" width="672" height="678" key="search.everywhere.popup" timestamp="1616505579941">
+    <state x="2410" y="259" width="672" height="678" key="search.everywhere.popup" timestamp="1616516461797">
       <screen x="1440" y="0" width="2560" height="1080" />
     </state>
-    <state x="2410" y="259" width="672" height="678" key="search.everywhere.popup/1440.0.2560.1080/0.270.1440.810@1440.0.2560.1080" timestamp="1616505579941" />
+    <state x="2410" y="259" width="672" height="678" key="search.everywhere.popup/1440.0.2560.1080/0.270.1440.810@1440.0.2560.1080" timestamp="1616516461797" />
   </component>
 </project>

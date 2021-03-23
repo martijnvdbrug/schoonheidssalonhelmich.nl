@@ -1,7 +1,7 @@
 <template>
   <v-col
       cols="12"
-      :md="size === 2 ? 6 : size === 3 ? 4 : undefined"
+      :sm="size === 2 ? 6 : size === 3 ? 4 : undefined"
   >
     <g-link :to="link">
       <v-img
@@ -19,9 +19,9 @@
               class="text-center"
               cols="12"
           >
-            <h1>
+            <h2>
               {{ title }}
-            </h1>
+            </h2>
           </v-col>
         </v-row>
       </v-img>

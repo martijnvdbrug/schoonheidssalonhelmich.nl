@@ -26,9 +26,8 @@
                         {{ home.title }}
                       </h1>
 
-                      <p>
-                        {{ home.body }}
-                      </p>
+                      <p v-html="home.body"></p>
+
                     </v-col>
                   </v-row>
                 </v-img>

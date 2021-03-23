@@ -4,7 +4,6 @@
       flat
       color="white"
       height="120"
-      height-sm="80"
   >
     <v-app-bar-nav-icon
         class="hidden-md-and-up"

@@ -4,6 +4,8 @@
 
     <core-drawer/>
 
+    <div id="spacer" style="height:120px;"></div>
+
     <slot/>
 
     <br/>
@@ -35,6 +37,11 @@ export default {
 h1 {
   font-weight: 400;
   font-size: 2rem;
+  color: #2F837F;
+}
+
+h2 {
+  font-weight: 400;
 }
 
 a.no-anchor {

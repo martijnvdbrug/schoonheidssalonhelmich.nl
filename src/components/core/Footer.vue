@@ -23,6 +23,7 @@
             class="text-center"
             cols="12"
             md="4"
+            id="contact"
         >
           <h3>Contact</h3>
           <br>

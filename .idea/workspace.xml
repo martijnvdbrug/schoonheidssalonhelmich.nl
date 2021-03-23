@@ -14,6 +14,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="92cc75d1-6f92-47f8-9e40-4963d9094d2e" name="Default Changelist" comment="This config works for netlify cms (global data)">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/admin/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/admin/config.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -74,6 +75,8 @@
       <workItem from="1615899788244" duration="15727000" />
       <workItem from="1615971769126" duration="9000" />
       <workItem from="1616414455439" duration="14044000" />
+      <workItem from="1616485944395" duration="608000" />
+      <workItem from="1616501110571" duration="606000" />
     </task>
     <task id="LOCAL-00001" summary="First setup using vuetify">
       <created>1615560928618</created>

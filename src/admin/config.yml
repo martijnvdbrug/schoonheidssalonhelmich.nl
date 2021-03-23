@@ -23,3 +23,17 @@ collections:
           - {label: Straat en huisnummer, name: straat, widget: string}
           - {label: Postcode en plaats, name: postcodePlaats, widget: string}
           - {label: Afsprakenplanner link, name: afspraakPlanner, widget: string}
+      - label: "Home pagina"
+        name: "home"
+        file: "src/data/home.json"
+        fields:
+          - { label: Titel, name: title, widget: string }
+          - { label: Text, name: body, widget: text }
+          - label: "afbeeldingen"
+            name: blcoks
+            collapsed: false
+            widget: "list"
+            fields:
+              - { label: Titel, name: quote, widget: string }
+              - { label: Link, name: link, widget: string }
+              - { label: Afbeelding, name: image, widget: image }

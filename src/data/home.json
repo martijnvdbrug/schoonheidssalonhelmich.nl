@@ -1,6 +1,6 @@
 {
   "title": "Welkom bij schoonheidssalon Helmich",
-  "body": "Schoonheidsverzorging is de kunst om de schoonheid van het lichaam te verhogen en/of te behouden.\n\nOm dit te bereiken is rust, reiniging en verzorging met goede producten belangrijk voor het lichaam.",
+  "body": "Schoonheidsverzorging is de kunst om de schoonheid van het lichaam te verhogen en/of te behouden.\n<br><br>\nOm dit te bereiken is rust, reiniging en verzorging met goede producten belangrijk voor het lichaam.",
   "image": "/img/banner.png",
   "blocks": [
     {
@@ -16,6 +16,13 @@
     {
       "title": "Tarieven",
       "link": "https://ergensanders.nl",
+      "image": "/img/banner.png"
+    }
+  ],
+  "blcoks": [
+    {
+      "quote": "Extra block",
+      "link": "/gezichtsbehandeling/",
       "image": "/img/banner.png"
     }
   ]

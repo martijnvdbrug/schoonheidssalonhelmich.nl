@@ -18,5 +18,12 @@
       "link": "https://ergensanders.nl",
       "image": "/img/banner.png"
     }
+  ],
+  "blcoks": [
+    {
+      "quote": "Extra block",
+      "link": "/gezichtsbehandeling/",
+      "image": "/img/banner.png"
+    }
   ]
 }

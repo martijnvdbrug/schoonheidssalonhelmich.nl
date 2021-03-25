@@ -5,18 +5,18 @@
   "blocks": [
     {
       "title": "Afspraak maken",
-      "link": "https://ergensanders.nl",
-      "image": "/img/banner.png"
+      "link": "/contact/",
+      "image": "/img/babor-_8181.jpg"
     },
     {
       "title": "Webshop",
       "link": "https://nl.babor.com/institute/schoonheidsinstituutthelmich",
-      "image": "/img/banner.png"
+      "image": "/img/babor-_8131.jpg"
     },
     {
       "title": "Tarieven",
       "link": "/tarieven/",
-      "image": "/img/banner.png"
+      "image": "/img/babor-_8217-x.jpg"
     }
   ]
 }

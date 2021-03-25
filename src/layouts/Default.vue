@@ -31,7 +31,7 @@ export default {
 </script>
 <style>
 .overlay {
-  background-color: rgba(82, 65, 76, 0.6);
+  background-color: rgba(82, 65, 76, 0.7);
 }
 
 h1 {

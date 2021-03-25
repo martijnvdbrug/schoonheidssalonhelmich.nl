@@ -32,7 +32,8 @@
 
         <v-row>
           <v-col
-              v-for="employee of data.employees"
+              v-for="(employee, i) of data.employees"
+              :key="i"
               cols="12"
               sm="6"
           >

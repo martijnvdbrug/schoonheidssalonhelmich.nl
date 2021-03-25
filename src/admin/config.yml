@@ -53,4 +53,4 @@ collections:
             allow_add: true
             widget: "list"
             fields:
-              - { label: Text, name: body, widget: string }
+              - { label: Text, name: body, widget: text }

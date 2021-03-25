@@ -12,10 +12,12 @@
     <v-container>
       <v-row align="center">
         <v-col style="width: 190px;">
+          <g-link to="/">
           <g-image
               src="/helmich-logo.png"
               style="height: 50px;"
           />
+          </g-link>
         </v-col>
         <v-col align="right">
           <v-btn depressed color="primary rounded-0 hidden-sm-and-down" class="mx-2">

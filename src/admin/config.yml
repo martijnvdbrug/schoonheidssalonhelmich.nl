@@ -52,7 +52,6 @@ collections:
             collapsed: false
             allow_add: false
             field: { label: Image, name: image, widget: image }
-
       - label: "Over ons"
         name: "about"
         file: "src/data/over-ons.json"
@@ -68,3 +67,25 @@ collections:
             fields:
               - { label: Titel, name: title, widget: string }
               - { label: Text, name: body, widget: text }
+      - label: "Tarieven"
+        name: "tarieven"
+        file: "src/data/tarieven.json"
+        fields:
+          - { label: Titel, name: title, widget: string }
+          - { label: Text, name: body, widget: text }
+          - label: "Category"
+            name: categories
+            collapsed: true
+            allow_add: true
+            widget: "list"
+            fields:
+              - { label: Titel, name: title, widget: string }
+              - label: "Behandelingen"
+                name: items
+                collapsed: true
+                allow_add: true
+                widget: "list"
+                fields:
+                  - { label: Naam, name: name, widget: string}
+                  - { label: Prijs, name: price, widget: string}
+                  - { label: Link, name: link, widget: string}

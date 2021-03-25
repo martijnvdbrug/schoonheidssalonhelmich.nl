@@ -7,11 +7,246 @@
       "items": [
         {
           "name": "90 minuten",
-          "price": "62,50 v.a."
+          "price": "65,- vanaf"
         },
         {
           "name": "60 minuten",
-          "price": "62,50 v.a."
+          "price": "50,- vanaf"
+        }
+      ]
+    },
+    {
+      "title": "Huidverbeterende behandelingen",
+      "items": [
+        {
+          "name": "Acne",
+          "price": "42,50",
+          "link": "/acne/"
+        },
+        {
+          "name": "Acne incl. fruitzuur",
+          "price": "50,-",
+          "link": ""
+        },
+        {
+          "name": "Fruitzuur",
+          "price": "80,-",
+          "link": ""
+        },
+        {
+          "name": "Liftende HSR",
+          "price": "80,-",
+          "link": ""
+        },
+        {
+          "name": "Detox",
+          "price": "80,-",
+          "link": ""
+        },
+        {
+          "name": "Neuro Sensitive",
+          "price": "65,-",
+          "link": ""
+        },
+        {
+          "name": "Microdermabrasie",
+          "price": "80,-",
+          "link": ""
+        },
+        {
+          "name": "Micro Needling",
+          "price": "97,50",
+          "link": ""
+        },
+        {
+          "name": "Spot Reducer (pigmentvlekken behandelen)",
+          "price": "20,- vanaf",
+          "link": ""
+        }
+      ]
+    },
+    {
+      "title": "Aanvullende opties",
+      "items": [
+        {
+          "name": "Huidscan",
+          "price": "30,-",
+          "link": ""
+        },
+        {
+          "name": "Verstevigend Peel off-masker",
+          "price": "10,-",
+          "link": ""
+        },
+        {
+          "name": "Collageen vliesmasker",
+          "price": "12,50",
+          "link": ""
+        },
+        {
+          "name": "Hydra boost",
+          "price": "15,-",
+          "link": ""
+        }
+      ]
+    },
+    {
+      "title": "Make-up",
+      "items": [
+        {
+          "name": "Dagmake-up / Proefmake-up",
+          "price": "30,-",
+          "link": ""
+        },
+        {
+          "name": "Bruidsmake-up",
+          "price": "45,-",
+          "link": ""
+        },
+        {
+          "name": "Bruidsarrangement: 90 min. behandeling, proef- en bruidsmake-up\n",
+          "price": "125,-",
+          "link": ""
+        },
+        {
+          "name": "Hydra boost",
+          "price": "15,-",
+          "link": ""
+        }
+      ]
+    },
+    {
+      "title": "Massages",
+      "items": [
+        {
+          "name": "Lichaamsmassage",
+          "price": "55,-",
+          "link": ""
+        },
+        {
+          "name": "Rug-nek-schoudermassage",
+          "price": "35,-",
+          "link": ""
+        },
+        {
+          "name": "Hotstone 40 minuten",
+          "price": "47,-",
+          "link": ""
+        },
+        {
+          "name": "Hotstone 60 minuten",
+          "price": "63,-",
+          "link": ""
+        }
+      ]
+    },
+    {
+      "title": "Verven",
+      "items": [
+        {
+          "name": "Wenkbrauwen",
+          "price": "12,-",
+          "link": ""
+        },
+        {
+          "name": "Wimpers",
+          "price": "14,-",
+          "link": ""
+        },
+        {
+          "name": "Wimpers en wenkbrauwen",
+          "price": "20,-",
+          "link": ""
+        }
+      ]
+    },
+    {
+      "title": "Epileren en waxen",
+      "items": [
+        {
+          "name": "Wenkbrauwen",
+          "price": "12,-",
+          "link": ""
+        },
+        {
+          "name": "Wenkbrauwen en lip",
+          "price": "23,-",
+          "link": ""
+        },
+        {
+          "name": "Wenkbrauwen, lip en kin",
+          "price": "25,-",
+          "link": ""
+        },
+        {
+          "name": "Wenkbrauwen,lip,kin en kaaklijn",
+          "price": "29,-",
+          "link": ""
+        }
+      ]
+    },
+    {
+      "title": "Waxen",
+      "items": [
+        {
+          "name": "Lip of kin",
+          "price": "16,-",
+          "link": ""
+        },
+        {
+          "name": "Lip en Kin",
+          "price": "18,-",
+          "link": ""
+        },
+        {
+          "name": "Lip, kin en kaaklijn",
+          "price": "25,-",
+          "link": ""
+        },
+        {
+          "name": "Armen",
+          "price": "20,-",
+          "link": ""
+        },
+        {
+          "name": "Benen",
+          "price": "45,-",
+          "link": ""
+        },
+        {
+          "name": "Onderbenen",
+          "price": "27,50",
+          "link": ""
+        },
+        {
+          "name": "Bikinilijn",
+          "price": "20,-",
+          "link": ""
+        },
+        {
+          "name": "Benen incl. bikinilijn",
+          "price": "60,-",
+          "link": ""
+        },
+        {
+          "name": "Oksels",
+          "price": "20,-",
+          "link": ""
+        },
+        {
+          "name": "Borst of rug",
+          "price": "28,50",
+          "link": ""
+        }
+      ]
+    },
+    {
+      "title": "Overig",
+      "items": [
+        {
+          "name": "Verwijderen steelwratjes",
+          "price": "10,-",
+          "link": ""
         }
       ]
     }

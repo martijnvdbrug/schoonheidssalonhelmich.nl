@@ -19,38 +19,47 @@
                  cols="12"
                  md="8"
                  offset="0"
-                 offset-md="2"
-          >
+                 offset-md="2">
 
-            <v-card>
-              <v-list>
-                <v-list-group
-                    no-action
-                    sub-group
-                    value="true"
+            <v-simple-table>
+              <template v-slot:default>
+                <thead>
+                <tr>
+                  <th class="text-left">
+                    Behandeling
+                  </th>
+                  <th class="text-left">
+                    Prijs
+                  </th>
+                </tr>
+                </thead>
+                <tbody>
+                <template
                     v-for="(category, i) in data.categories"
-                    :key="i"
                 >
-                  <template v-slot:activator>
-                    <v-list-item-content>
-                      <v-list-item-title>{{ category.title }}</v-list-item-title>
-                    </v-list-item-content>
-                  </template>
-
-                  <v-list-item
+                  <tr>
+                    <td><h3 style="color: #2F837F;">{{ category.title }}</h3></td>
+                    <td></td>
+                  </tr>
+                  <tr
                       v-for="(item, i) in category.items"
-                      :key="i"
-                      link
+                      :key="item.name"
                   >
-                    <v-list-item-title v-text="item.name"></v-list-item-title>
-                    <v-list-item-icon style="width: 150px;">
-                      € {{ item.price }}
-                    </v-list-item-icon>
+                    <td style="padding-left:20px;">
+                      <g-link v-if="item.link && item.link.length > 0" :to="item.link" style="text-decoration: inherit;">
+                        {{ item.name }}
+                      </g-link>
+                      <template v-else>
+                        {{ item.name }}
+                      </template>
+                    </td>
+                    <td>€ {{ item.price }}</td>
+                  </tr>
+                </template>
+                </tbody>
+              </template>
+            </v-simple-table>
 
-                  </v-list-item>
-                </v-list-group>
-              </v-list>
-            </v-card>
           </v-col>
         </v-row>
         <v-row>

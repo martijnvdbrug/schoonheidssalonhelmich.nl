@@ -4,6 +4,7 @@ import DefaultLayout from '~/layouts/Default.vue';
 import BaseBtn from '@/components/base/Btn'
 import BaseCard from '@/components/base/Card'
 import BaseSubheading from '@/components/base/Subheading'
+import './styles.css';
 
 export default function (Vue, {appOptions, router, head, isClient}) {
     Vue.use(Vuetify)

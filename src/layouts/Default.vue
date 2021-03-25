@@ -29,23 +29,3 @@ export default {
   }
 }
 </script>
-<style>
-.overlay {
-  background-color: rgba(82, 65, 76, 0.7);
-}
-
-h1 {
-  font-weight: 400;
-  font-size: 2rem;
-  color: #2F837F;
-}
-
-h2 {
-  font-weight: 400;
-}
-
-a.no-anchor {
-  color: inherit !important;
-  text-decoration: inherit !important;
-}
-</style>

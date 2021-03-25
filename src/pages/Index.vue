@@ -22,7 +22,7 @@
                         offset-md="2"
                         class="overlay"
                     >
-                      <h1>
+                      <h1 style="color: white;">
                         {{ home.title }}
                       </h1>
 

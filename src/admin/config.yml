@@ -29,6 +29,7 @@ collections:
         fields:
           - { label: Titel, name: title, widget: string }
           - { label: Text, name: body, widget: text }
+          - { label: Grote afbeelding, name: image, widget: image }
           - label: "afbeeldingen"
             name: blocks
             collapsed: false

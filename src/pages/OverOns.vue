@@ -1,7 +1,21 @@
 <template>
   <Layout>
-    <section id="gezichtsbehandeling">
+    <section id="over-ons">
       <v-container>
+
+        <v-row>
+          <v-col
+              cols="12"
+          >
+            <br>
+            <h1>
+              {{ data.title }}
+            </h1>
+
+            <p v-html="data.body"></p>
+          </v-col>
+        </v-row>
+
         <v-row>
           <v-col cols="12">
             <base-card dark>
@@ -14,26 +28,20 @@
               </v-img>
             </base-card>
           </v-col>
+        </v-row>
+
+        <v-row>
           <v-col
+              v-for="employee of data.employees"
               cols="12"
+              sm="6"
           >
             <h1>
-              {{ data.title }}
+              {{ employee.title }}
             </h1>
+            <br>
 
-            <p v-html="data.body"></p>
-          </v-col>
-
-          <v-col
-              v-for="(img,i) in data.images"
-              :key="img+i"
-              cols="12"
-              sm="4"
-              v-on:click="selectedImage = data.image">
-            <v-img
-                :src="img"
-                height="200"
-            />
+            <p v-html="employee.body"></p>
           </v-col>
         </v-row>
 

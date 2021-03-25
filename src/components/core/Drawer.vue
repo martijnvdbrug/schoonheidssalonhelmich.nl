@@ -11,7 +11,7 @@
           :key="i"
           @click="$store.drawer = false"
       >
-        <g-link :to="link.href" class="no-anchor">
+        <g-link :to="link.href" class="no-anchor" @click="$store.drawer = false">
           <v-list-item-title v-text="link.text"/>
         </g-link>
       </v-list-item>

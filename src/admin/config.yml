@@ -39,6 +39,20 @@ collections:
               - { label: Titel, name: title, widget: string }
               - { label: Link, name: link, widget: string }
               - { label: Afbeelding, name: image, widget: image }
+      - label: "Permanente Makeup"
+        name: "makeup"
+        file: "src/data/makeup.json"
+        fields:
+          - { label: Titel, name: title, widget: string }
+          - { label: Text, name: body, widget: text }
+          - { label: Grote afbeelding, name: image, widget: image }
+          - label: "afbeeldingen"
+            name: images
+            collapsed: false
+            allow_add: false
+            widget: "list"
+            fields:
+              - { label: Afbeelding, name: image, widget: image }
       - label: "Over ons"
         name: "about"
         file: "src/data/over-ons.json"
@@ -46,11 +60,11 @@ collections:
           - { label: Titel, name: title, widget: string }
           - { label: Text, name: body, widget: text }
           - { label: Grote afbeelding, name: image, widget: image }
-          - { label: Titel 2, name: title2, widget: string }
           - label: "Werknemers"
             name: employees
             collapsed: false
             allow_add: true
             widget: "list"
             fields:
+              - { label: Titel, name: title, widget: string }
               - { label: Text, name: body, widget: text }

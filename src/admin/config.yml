@@ -46,13 +46,13 @@ collections:
           - { label: Titel, name: title, widget: string }
           - { label: Text, name: body, widget: text }
           - { label: Grote afbeelding, name: image, widget: image }
-          - label: "afbeeldingen"
-            name: images
+          - label: "Gallery"
+            name: "images"
+            widget: "list"
             collapsed: false
             allow_add: false
-            widget: "list"
-            fields:
-              - { label: Afbeelding, name: image, widget: image }
+            field: { label: Image, name: image, widget: image }
+
       - label: "Over ons"
         name: "about"
         file: "src/data/over-ons.json"

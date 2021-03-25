@@ -249,6 +249,61 @@
           "link": ""
         }
       ]
+    },
+    {
+      "title": "Permanente make up",
+      "items": [
+        {
+          "name": "Wenkbrauwen nieuw",
+          "price": "325,-",
+          "link": ""
+        },
+        {
+          "name": "Wenkbrauwen opfrissen",
+          "price": "125,-",
+          "link": ""
+        },
+        {
+          "name": "Eyeliner boven",
+          "price": "175,-",
+          "link": ""
+        },
+        {
+          "name": "Eyeliner onder",
+          "price": "150,-",
+          "link": ""
+        },
+        {
+          "name": "Eyeliner boven en onder",
+          "price": "295,-",
+          "link": ""
+        },
+        {
+          "name": "Eyeliner boven opfrissen",
+          "price": "125,-",
+          "link": ""
+        },
+        {
+          "name": "Eyeliner onder opfrissen",
+          "price": "90,-",
+          "link": ""
+        },
+        {
+          "name": "Eyeliner boven en onder opfrissen",
+          "price": "150,-",
+          "link": ""
+        },
+        {
+          "name": "Lipliner",
+          "price": "325,-",
+          "link": ""
+        },
+        {
+          "name": "Lipliner opfrissen",
+          "price": "150,-",
+          "link": ""
+        }
+      ]
     }
   ]
 }

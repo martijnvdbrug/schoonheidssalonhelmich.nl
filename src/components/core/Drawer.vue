@@ -8,7 +8,9 @@
     <v-list>
       <v-list-item
           v-for="(link, i) in global.links"
-          :key="i">
+          :key="i"
+          @click="$store.drawer = false"
+      >
         <g-link :to="link.href" class="no-anchor">
           <v-list-item-title v-text="link.text"/>
         </g-link>

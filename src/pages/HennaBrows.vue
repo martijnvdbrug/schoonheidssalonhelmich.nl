@@ -29,7 +29,7 @@
               :key="img+i"
               cols="12"
               sm="4"
-              v-on:click="selectedImage = data.image">
+              v-on:click="selectedImage = img">
             <v-img
                 :src="img"
                 height="200"

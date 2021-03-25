@@ -1,64 +1,71 @@
 <template>
   <Layout>
-      <section id="home">
-        <v-container>
-          <v-row>
-            <v-col cols="12">
-              <base-card dark>
-                <v-img
-                    :src="data.image"
-                    class="grey lighten-2"
-                    width="100%"
-                    min-height="500"
+    <section id="permanente-makeup">
+      <v-container>
 
-                >
-                  <v-row
-                      class="fill-height pa-3"
-                      align="center"
-                  >
-                    <v-col
-                        cols="12"
-                        md="8"
-                        offset="0"
-                        offset-md="2"
-                        class="overlay"
-                    >
-                      <h1 style="color: white;">
-                        {{ data.title }}
-                      </h1>
+        <v-row>
+          <v-col cols="12">
+            <base-card dark>
+              <v-img
+                  :src="data.image"
+                  class="grey lighten-2"
+                  width="100%"
+                  height="300"
+              >
+              </v-img>
+            </base-card>
+          </v-col>
+          <v-col
+              cols="12"
+          >
+            <h1>
+              {{ data.title }}
+            </h1>
 
-                      <p v-html="data.body"></p>
+            <p v-html="data.body"></p>
+          </v-col>
 
-                    </v-col>
-                  </v-row>
-                </v-img>
-              </base-card>
-            </v-col>
+          <v-col
+              v-for="(img,i) in data.images"
+              :key="img+i"
+              cols="12"
+              sm="4"
+              v-on:click="selectedImage = img">
+            <v-img
+                :src="img"
+                height="200"/>
+          </v-col>
+        </v-row>
 
-            <feed-card
-                v-for="block in home.blocks"
-                :key="block.title"
-                :size="3"
-                :title="block.title"
-                :img="block.image"
-                :link="block.link"
-            />
-          </v-row>
+        <v-overlay :value="selectedImage" align="center">
+          <v-btn
+              icon
+              @click="selectedImage = false">
+            <v-icon>mdi-close</v-icon>
+          </v-btn>
 
-        </v-container>
-      </section>
+          <v-img
+              :src="selectedImage"
+              width="80%"
+              @click="selectedImage = false"
+          />
+        </v-overlay>
+
+      </v-container>
+    </section>
   </Layout>
 </template>
 
 <script>
-import home from '@/data/home.json';
+import data from '@/data/makeup.json';
 export default {
 
   components: {
     FeedCard: () => import('../components/FeedCard'),
   },
   data: () => ({
-    home,
+    data,
+    selectedImage: false
   })
 }
 </script>

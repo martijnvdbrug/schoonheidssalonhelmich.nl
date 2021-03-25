@@ -3,11 +3,6 @@
     <section id="gezichtsbehandeling">
       <v-container>
 
-        <div v-if="selectedImage" max-width="85vw">
-          <img :src="selectedImage" alt="" width="100%" @click.stop="selectedImage = null">
-          <hr>
-        </div>
-
         <v-row>
           <v-col cols="12">
             <base-card dark>
@@ -35,7 +30,7 @@
               :key="img+i"
               cols="12"
               sm="4"
-              v-on:click="selectedImage = data.image">
+              v-on:click="selectedImage = img">
             <v-img
                 :src="img"
                 height="200"/>

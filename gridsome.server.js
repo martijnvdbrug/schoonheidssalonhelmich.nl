@@ -12,5 +12,15 @@ module.exports = function (api) {
   })
 
   api.createPages(async ({ createPage, graphql }) => {
+
+    const data = require('./src/data/subpages/makeup.json');
+    createPage({
+      path: '/permanente-makeup/',
+      component: './src/templates/subpage.vue',
+      context: {
+        data
+      }
+    })
+
   })
 }

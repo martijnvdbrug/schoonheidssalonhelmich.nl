@@ -7,7 +7,7 @@
           <v-col cols="12">
             <base-card dark>
               <v-img
-                  :src="data.image"
+                  :src="$context.data.image"
                   class="grey lighten-2"
                   width="100%"
                   height="300"
@@ -19,14 +19,14 @@
               cols="12"
           >
             <h1>
-              {{ data.title }}
+              {{ $context.data.title }}
             </h1>
 
-            <p v-html="data.body"></p>
+            <p v-html="$context.data.body"></p>
           </v-col>
 
           <v-col
-              v-for="(img,i) in data.images"
+              v-for="(img,i) in $context.data.images"
               :key="img+i"
               cols="12"
               sm="4"
@@ -57,14 +57,12 @@
 </template>
 
 <script>
-import data from '@/data/makeup.json';
 export default {
 
   components: {
     FeedCard: () => import('../components/FeedCard'),
   },
   data: () => ({
-    data,
     selectedImage: false
   })
 }

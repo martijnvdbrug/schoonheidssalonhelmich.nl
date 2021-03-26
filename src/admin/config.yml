@@ -124,6 +124,8 @@ collections:
   - label: "Subpagina's"
     name: "subpages"
     folder: "src/data/subpages"
+    editor:
+      preview: false
     create: false
     identifier_field: name
     extension: json

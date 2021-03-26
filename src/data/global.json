@@ -1,6 +1,6 @@
 {
-  "telefoon": "0332571910",
-  "telefoonDisplay": "033 257 19 10",
+  "telefoon": "0031683511535",
+  "telefoonDisplay": "06 83 51 15 35",
   "email": "helmich@hooglanderveen.eu",
   "facebook": "https://www.facebook.com/uwschoonheidsspecialistinhooglanderveen",
   "straat": "van Tuyllstraat 15",
@@ -30,6 +30,36 @@
     {
       "text": "Contact",
       "href": "/contact/"
+    }
+  ],
+  "openinghours": [
+    {
+      "day": "Maandag",
+      "hours": "Gesloten"
+    },
+    {
+      "day": "Dinsdag",
+      "hours": "9:00 - 21:00"
+    },
+    {
+      "day": "Woensdag",
+      "hours": "8:30 - 17:30"
+    },
+    {
+      "day": "Donderdag",
+      "hours": "9:00 - 17:30"
+    },
+    {
+      "day": "Vrijdag",
+      "hours": "9:00 - 18:00"
+    },
+    {
+      "day": "Zaterdag",
+      "hours": "8:00 - 15:00"
+    },
+    {
+      "day": "Zondag",
+      "hours": "Gesloten"
     }
   ]
 }

@@ -32,12 +32,19 @@
           <v-col
               class="text-center"
               cols="12"
-              md="6">
+              md="4">
             <h3>Openingstijden</h3>
             <br>
-            <p>Dinsdag t/m donderdag: 8.30 - 17.30 uur</p>
-            <p>Vrijdag: 8.30 - 20.00 uur</p>
-            <p>Zaterdag: 8.00 - 14.30 uur</p>
+            <v-simple-table dense>
+              <template v-slot:default>
+                <tbody>
+                <tr v-for="openinghour in global.openinghours">
+                  <td>{{ openinghour.day }}</td>
+                  <td>{{ openinghour.hours }}</td>
+                </tr>
+                </tbody>
+              </template>
+            </v-simple-table>
           </v-col>
 
           <feed-card

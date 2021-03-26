@@ -1,0 +1,41 @@
+{
+  "title": "Huidverbeterende gezichtsbehandelingen",
+  "body": "Schoonheidssalon Helmich heeft de volgende behandelingen zijn geschikt om uw huid te verbeteren of te vernieuwen:",
+  "blocks": [
+    {
+      "title": "Acne",
+      "link": "/acne/",
+      "image": "/img/babor-_8181.jpg"
+    },
+    {
+      "title": "HSR lifting",
+      "link": "/hsr-lifting/",
+      "image": "/img/babor-_8131.jpg"
+    },
+    {
+      "title": "Reversive",
+      "link": "/reversive/",
+      "image": "/img/babor-_8131.jpg"
+    },
+    {
+      "title": "Doctor Babor",
+      "link": "/doctor-babor/",
+      "image": "/img/babor-_8131.jpg"
+    },
+    {
+      "title": "Microdermabrasie",
+      "link": "/microdermabrasie/",
+      "image": "/img/babor-_8131.jpg"
+    },
+    {
+      "title": "Microneedling",
+      "link": "/microneedling/",
+      "image": "/img/babor-_8131.jpg"
+    },
+    {
+      "title": "SpotReducer",
+      "link": "/spotreducer/",
+      "image": "/img/babor-_8131.jpg"
+    }
+  ]
+}

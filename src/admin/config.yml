@@ -7,7 +7,7 @@ media_folder: "static/img"
 public_folder: "/img"
 
 collections:
-  - label: "Paginas"
+  - label: "Hoofdpagina's"
     name: "paginas"
     editor:
       preview: false
@@ -89,3 +89,17 @@ collections:
                   - { label: Naam, name: name, widget: string}
                   - { label: Prijs, name: price, widget: string}
                   - { label: Link, name: link, widget: string}
+  - label: "Subpagina's"
+      name: "subpages"
+      folder: "data/subpages"
+      create: false
+      fields:
+        - { label: Titel, name: title, widget: string }
+        - { label: Text, name: body, widget: text }
+        - { label: Grote afbeelding, name: image, widget: image }
+        - label: "Gallery"
+          name: "images"
+          widget: "list"
+          collapsed: false
+          allow_add: false
+          field: { label: Image, name: image, widget: image }

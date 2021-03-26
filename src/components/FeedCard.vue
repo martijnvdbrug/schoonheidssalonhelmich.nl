@@ -7,7 +7,7 @@
       <v-img
           dark
           :src="img"
-          gradient="rgba(0, 0, 0, .42), rgba(0, 0, 0, .42)"
+          gradient="rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)"
           height="200"
       >
         <v-row

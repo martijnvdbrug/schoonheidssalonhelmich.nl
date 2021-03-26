@@ -36,7 +36,7 @@
 </template>
 
 <script>
-import data from '@/data/gezichtsbehandeling.json';
+import data from '@/data/huidverbeterend.json';
 import FeedCard from '../components/FeedCard';
 
 export default {

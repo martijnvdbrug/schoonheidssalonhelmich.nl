@@ -6,10 +6,12 @@ h1 {
     font-weight: 400;
     font-size: 2rem;
     color: #2F837F;
+    word-wrap: break-word;
 }
 
 h2 {
     font-weight: 400;
+    word-wrap: break-word;
 }
 
 a.no-anchor {

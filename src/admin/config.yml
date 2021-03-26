@@ -29,10 +29,10 @@ collections:
         fields:
           - { label: Titel, name: title, widget: string }
           - { label: Text, name: body, widget: text }
-          - { label: Grote afbeelding, name: image, widget: image }
+          - { label: Banner afbeelding, name: image, widget: image }
           - label: "afbeeldingen"
             name: blocks
-            collapsed: false
+            collapsed: true
             allow_add: false
             widget: "list"
             fields:
@@ -47,23 +47,53 @@ collections:
           - { label: Text, name: body, widget: text }
           - label: "afbeeldingen"
             name: blocks
-            collapsed: false
+            collapsed: true
             allow_add: false
             widget: "list"
             fields:
               - { label: Titel, name: title, widget: string }
               - { label: Link, name: link, widget: string }
               - { label: Afbeelding, name: image, widget: image }
+      - label: "Huidverbeterende gezichtsbehandeling"
+        name: "huidverbeterend"
+        file: "src/data/huidverbeterend.json"
+        fields:
+          - { label: Titel, name: title, widget: string }
+          - { label: Text, name: body, widget: text }
+          - label: "afbeeldingen"
+            name: blocks
+            collapsed: true
+            allow_add: false
+            widget: "list"
+            fields:
+              - { label: Titel, name: title, widget: string }
+              - { label: Link, name: link, widget: string }
+              - { label: Afbeelding, name: image, widget: image }
+      - label: "Subpagina's"
+        name: "subpages"
+        file: "src/data/henna-brows.json"
+        create: false
+        identifier_field: name
+        fields:
+          - { label: Titel, name: title, widget: string }
+          - { label: Text, name: body, widget: text }
+          - { label: Banner afbeelding, name: image, widget: image }
+          - label: "Gallery"
+            name: "images"
+            widget: "list"
+            collapsed: true
+            allow_add: true
+            field: { label: Image, name: image, widget: image }
       - label: "Over ons"
         name: "about"
         file: "src/data/over-ons.json"
         fields:
           - { label: Titel, name: title, widget: string }
           - { label: Text, name: body, widget: text }
-          - { label: Grote afbeelding, name: image, widget: image }
+          - { label: Banner afbeelding, name: image, widget: image }
           - label: "Werknemers"
             name: employees
-            collapsed: false
+            collapsed: true
             allow_add: true
             widget: "list"
             fields:
@@ -94,16 +124,16 @@ collections:
   - label: "Subpagina's"
     name: "subpages"
     folder: "src/data/subpages"
-    create: true
+    create: false
     identifier_field: name
     extension: json
     fields:
       - { label: Titel, name: title, widget: string }
       - { label: Text, name: body, widget: text }
-      - { label: Grote afbeelding, name: image, widget: image }
+      - { label: Banner afbeelding, name: image, widget: image }
       - label: "Gallery"
         name: "images"
         widget: "list"
-        collapsed: false
+        collapsed: true
         allow_add: true
         field: { label: Image, name: image, widget: image }

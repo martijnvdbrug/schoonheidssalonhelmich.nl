@@ -39,19 +39,6 @@ collections:
               - { label: Titel, name: title, widget: string }
               - { label: Link, name: link, widget: string }
               - { label: Afbeelding, name: image, widget: image }
-      - label: "Permanente Makeup"
-        name: "makeup"
-        file: "src/data/makeup.json"
-        fields:
-          - { label: Titel, name: title, widget: string }
-          - { label: Text, name: body, widget: text }
-          - { label: Grote afbeelding, name: image, widget: image }
-          - label: "Gallery"
-            name: "images"
-            widget: "list"
-            collapsed: false
-            allow_add: false
-            field: { label: Image, name: image, widget: image }
       - label: "Over ons"
         name: "about"
         file: "src/data/over-ons.json"
@@ -90,16 +77,18 @@ collections:
                   - { label: Prijs, name: price, widget: string}
                   - { label: Link, name: link, widget: string}
   - label: "Subpagina's"
-      name: "subpages"
-      folder: "data/subpages"
-      create: false
-      fields:
-        - { label: Titel, name: title, widget: string }
-        - { label: Text, name: body, widget: text }
-        - { label: Grote afbeelding, name: image, widget: image }
-        - label: "Gallery"
-          name: "images"
-          widget: "list"
-          collapsed: false
-          allow_add: false
-          field: { label: Image, name: image, widget: image }
+    name: "subpages"
+    folder: "src/data/subpages"
+    create: true
+    identifier_field: name
+    extension: json
+    fields:
+      - { label: Titel, name: title, widget: string }
+      - { label: Text, name: body, widget: text }
+      - { label: Grote afbeelding, name: image, widget: image }
+      - label: "Gallery"
+        name: "images"
+        widget: "list"
+        collapsed: false
+        allow_add: true
+        field: { label: Image, name: image, widget: image }

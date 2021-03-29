@@ -85,5 +85,13 @@ module.exports = function (api) {
       }
     });
 
+    createPage({
+      path: '/permanente-makeup-veel-gestelde-vragen/',
+      component: './src/templates/subpage.vue',
+      context: {
+        data: require('./src/data/subpages/faq-permanente-makeup.json')
+      }
+    });
+
   })
 }

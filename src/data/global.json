@@ -6,6 +6,8 @@
   "straat": "van Tuyllstraat 15",
   "postcodePlaats": "3829 AA Hooglanderveen",
   "afspraakPlanner": "/contact/",
+  "footerBanner": "Wij hebben ook cadeaubonnen! Neem contact met ons op voor meer informatie",
+  "footerBannerLink": "/contact/",
   "links": [
     {
       "text": "Gezichtsbehandeling",

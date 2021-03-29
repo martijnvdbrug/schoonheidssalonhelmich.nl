@@ -23,6 +23,8 @@ collections:
           - {label: Straat en huisnummer, name: straat, widget: string}
           - {label: Postcode en plaats, name: postcodePlaats, widget: string}
           - {label: Afsprakenplanner link, name: afspraakPlanner, widget: string}
+          - {label: Footer melding, name: footerBanner, widget: string}
+          - {label: Footer melding link, name: footerBannerLink, widget: string}
       - label: "Home pagina"
         name: "home"
         file: "src/data/home.json"

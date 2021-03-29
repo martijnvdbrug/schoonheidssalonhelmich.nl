@@ -69,8 +69,8 @@ collections:
               - { label: Titel, name: title, widget: string }
               - { label: Link, name: link, widget: string }
               - { label: Afbeelding, name: image, widget: image }
-      - label: "Subpagina's"
-        name: "subpages"
+      - label: "Henna wenkbrauwen"
+        name: "henna-brows"
         file: "src/data/henna-brows.json"
         create: false
         identifier_field: name

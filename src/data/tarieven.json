@@ -7,11 +7,13 @@
       "items": [
         {
           "name": "90 minuten",
-          "price": "65,- vanaf"
+          "price": "65,- vanaf",
+          "link": "/verzorgende-gezichtsbehandelingen/"
         },
         {
           "name": "60 minuten",
-          "price": "50,- vanaf"
+          "price": "50,- vanaf",
+          "link": "/verzorgende-gezichtsbehandelingen/"
         }
       ]
     },
@@ -26,7 +28,7 @@
         {
           "name": "Acne incl. fruitzuur",
           "price": "50,-",
-          "link": ""
+          "link": "/acne/"
         },
         {
           "name": "Fruitzuur",
@@ -36,7 +38,7 @@
         {
           "name": "Liftende HSR",
           "price": "80,-",
-          "link": ""
+          "link": "/hsr-lifting/"
         },
         {
           "name": "Detox",
@@ -51,17 +53,17 @@
         {
           "name": "Microdermabrasie",
           "price": "80,-",
-          "link": ""
+          "link": "/microdermabrasie/"
         },
         {
           "name": "Micro Needling",
           "price": "97,50",
-          "link": ""
+          "link": "/microneedling/"
         },
         {
           "name": "Spot Reducer (pigmentvlekken behandelen)",
           "price": "20,- vanaf",
-          "link": ""
+          "link": "/spotreducer/"
         }
       ]
     },
@@ -256,52 +258,52 @@
         {
           "name": "Wenkbrauwen nieuw",
           "price": "325,-",
-          "link": ""
+          "link": "/permanente-makeup/"
         },
         {
           "name": "Wenkbrauwen opfrissen",
           "price": "125,-",
-          "link": ""
+          "link": "/permanente-makeup/"
         },
         {
           "name": "Eyeliner boven",
           "price": "175,-",
-          "link": ""
+          "link": "/permanente-makeup/"
         },
         {
           "name": "Eyeliner onder",
           "price": "150,-",
-          "link": ""
+          "link": "/permanente-makeup/"
         },
         {
           "name": "Eyeliner boven en onder",
           "price": "295,-",
-          "link": ""
+          "link": "/permanente-makeup/"
         },
         {
           "name": "Eyeliner boven opfrissen",
           "price": "125,-",
-          "link": ""
+          "link": "/permanente-makeup/"
         },
         {
           "name": "Eyeliner onder opfrissen",
           "price": "90,-",
-          "link": ""
+          "link": "/permanente-makeup/"
         },
         {
           "name": "Eyeliner boven en onder opfrissen",
           "price": "150,-",
-          "link": ""
+          "link": "/permanente-makeup/"
         },
         {
           "name": "Lipliner",
           "price": "325,-",
-          "link": ""
+          "link": "/permanente-makeup/"
         },
         {
           "name": "Lipliner opfrissen",
           "price": "150,-",
-          "link": ""
+          "link": "/permanente-makeup/"
         }
       ]
     }

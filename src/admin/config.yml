@@ -92,7 +92,6 @@ collections:
         fields:
           - { label: Titel, name: title, widget: string }
           - { label: Text, name: body, widget: text }
-          - { label: Banner afbeelding, name: image, widget: image }
           - label: "Werknemers"
             name: employees
             collapsed: true

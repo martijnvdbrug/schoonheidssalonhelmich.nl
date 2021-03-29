@@ -122,7 +122,7 @@ collections:
                 fields:
                   - { label: Naam, name: name, widget: string}
                   - { label: Prijs, name: price, widget: string}
-                  - { label: Link, name: link, widget: string}
+                  - { label: Link, name: link, widget: string, required: false}
   - label: "Subpagina's"
     name: "subpages"
     folder: "src/data/subpages"

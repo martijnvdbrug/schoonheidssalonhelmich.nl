@@ -27,7 +27,7 @@
                 :src="employee.image"
                 class="grey lighten-2"
                 width="100%"
-                min-height="400"
+                height="500"
             >
             </v-img>
             <h1>

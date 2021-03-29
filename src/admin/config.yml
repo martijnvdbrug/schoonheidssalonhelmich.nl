@@ -101,6 +101,7 @@ collections:
             fields:
               - { label: Titel, name: title, widget: string }
               - { label: Text, name: body, widget: text }
+              - { label: Afbeelding, name: image, widget: image }
       - label: "Tarieven"
         name: "tarieven"
         file: "src/data/tarieven.json"

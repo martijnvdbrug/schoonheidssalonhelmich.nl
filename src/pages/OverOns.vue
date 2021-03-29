@@ -17,26 +17,19 @@
         </v-row>
 
         <v-row>
-          <v-col cols="12">
-            <base-card dark>
-              <v-img
-                  :src="data.image"
-                  class="grey lighten-2"
-                  width="100%"
-                  min-height="500"
-              >
-              </v-img>
-            </base-card>
-          </v-col>
-        </v-row>
-
-        <v-row>
           <v-col
               v-for="(employee, i) of data.employees"
               :key="i"
               cols="12"
               sm="6"
           >
+            <v-img
+                :src="employee.image"
+                class="grey lighten-2"
+                width="100%"
+                min-height="400"
+            >
+            </v-img>
             <h1>
               {{ employee.title }}
             </h1>
@@ -45,20 +38,6 @@
             <p v-html="employee.body"></p>
           </v-col>
         </v-row>
-
-        <v-overlay :value="selectedImage" align="center">
-          <v-btn
-              icon
-              @click="selectedImage = false">
-            <v-icon>mdi-close</v-icon>
-          </v-btn>
-
-          <v-img
-              :src="selectedImage"
-              width="80%"
-              @click="selectedImage = false"
-          />
-        </v-overlay>
 
       </v-container>
     </section>

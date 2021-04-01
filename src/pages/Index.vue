@@ -9,7 +9,7 @@
                     :src="home.image"
                     class="grey lighten-2"
                     width="100%"
-                    min-height="500"
+                    min-height="450"
 
                 >
                   <v-row

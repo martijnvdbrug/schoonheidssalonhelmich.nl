@@ -10,7 +10,7 @@
                   :src="$context.data.image"
                   class="grey lighten-2"
                   width="100%"
-                  height="300"
+                  height="500"
               >
               </v-img>
             </base-card>

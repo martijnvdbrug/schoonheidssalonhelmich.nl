@@ -143,6 +143,16 @@
       ]
     },
     {
+      "title": "Henna wenkbrauwen",
+      "items": [
+        {
+          "name": "Henna wenkbrauwen",
+          "price": "30,-",
+          "link": "/henna-wenkbrauwen/"
+        }
+      ]
+    },
+    {
       "title": "Verven",
       "items": [
         {
@@ -181,7 +191,7 @@
           "link": ""
         },
         {
-          "name": "Wenkbrauwen,lip,kin en kaaklijn",
+          "name": "Wenkbrauwen, lip, kin en kaaklijn",
           "price": "29,-",
           "link": ""
         }
@@ -239,16 +249,6 @@
           "name": "Borst of rug",
           "price": "28,50",
           "link": ""
-        }
-      ]
-    },
-    {
-      "title": "Henna wenkbrauwen",
-      "items": [
-        {
-          "name": "Henna wenkbrauwen",
-          "price": "30,-",
-          "link": "/henna-wenkbrauwen/"
         }
       ]
     },

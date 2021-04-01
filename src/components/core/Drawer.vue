@@ -16,7 +16,7 @@
         </g-link>
       </v-list-item>
       <v-list-item>
-        <a :href="global.afspraakPlanner" class="no-anchor">
+        <a :href="global.afspraakPlanner" class="no-anchor" @click="$store.drawer = false">
           <v-list-item-title>Afspraak inplannen</v-list-item-title>
         </a>
       </v-list-item>

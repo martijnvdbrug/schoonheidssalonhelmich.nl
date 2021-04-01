@@ -66,8 +66,8 @@
 
 
           <feed-card
-              v-for="block in home.blocks"
-              :key="block.title"
+              v-for="(block,i) in home.blocks"
+              :key="`${block.title}${i}`"
               :size="3"
               :title="block.title"
               :img="block.image"

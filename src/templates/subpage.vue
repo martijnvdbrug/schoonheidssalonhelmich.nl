@@ -33,7 +33,7 @@
               v-on:click="selectedImage = img">
             <v-img
                 :src="img"
-                height="200"/>
+                height="300"/>
           </v-col>
         </v-row>
 

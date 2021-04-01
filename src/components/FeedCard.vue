@@ -1,7 +1,7 @@
 <template>
   <v-col
       cols="12"
-      :sm="size === 2 ? 6 : size === 3 ? 4 : undefined"
+      :md="size === 2 ? 6 : size === 3 ? 4 : undefined"
   >
     <g-link :to="link">
       <v-img

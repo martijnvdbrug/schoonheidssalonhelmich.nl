@@ -53,7 +53,7 @@
                         {{ item.name }}
                       </template>
                     </td>
-                    <td>€{{ item.price }}</td>
+                    <td>{{ item.price }}</td>
                   </tr>
                 </template>
                 </tbody>

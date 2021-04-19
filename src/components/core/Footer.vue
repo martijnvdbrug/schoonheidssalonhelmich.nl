@@ -48,7 +48,7 @@
             cols="12"
             md="4">
 
-          <v-btn :href="global.afspraakPlanner" depressed color="primary rounded-0 hidden-sm-and-down text-capitalize" class="mx-2">
+          <v-btn :href="global.afspraakPlanner" target="_blank" depressed color="primary rounded-0 hidden-sm-and-down text-capitalize" class="mx-2">
             Afspraak inplannen
           </v-btn>
           <br>

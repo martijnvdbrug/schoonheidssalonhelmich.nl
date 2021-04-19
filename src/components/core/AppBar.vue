@@ -20,7 +20,7 @@
           </g-link>
         </v-col>
         <v-col align="right">
-          <v-btn :href="global.afspraakPlanner" depressed color="primary rounded-0 hidden-sm-and-down text-capitalize" class="mx-2">
+          <v-btn :href="global.afspraakPlanner" target="_blank" depressed color="primary rounded-0 hidden-sm-and-down text-capitalize" class="mx-2">
             Afspraak inplannen
           </v-btn>
           <v-btn :href="`tel:${global.telefoon}`" target="_blank" depressed color="primary rounded-0">

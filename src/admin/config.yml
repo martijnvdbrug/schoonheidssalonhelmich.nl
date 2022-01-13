@@ -25,6 +25,14 @@ collections:
           - {label: Afsprakenplanner link, name: afspraakPlanner, widget: string}
           - {label: Footer melding, name: footerBanner, widget: string}
           - {label: Footer melding link, name: footerBannerLink, widget: string}
+          - label: "Openingstijden"
+            name: openinghours
+            collapsed: true
+            allow_add: false
+            widget: "list"
+            fields:
+              - { label: Dag, name: day, widget: string }
+              - { label: Uren, name: hours, widget: string }
       - label: "Home pagina"
         name: "home"
         file: "src/data/home.json"

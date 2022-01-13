@@ -1,13 +1,42 @@
 {
-  "telefoon": "0031683511535",
-  "telefoonDisplay": "06 83 51 15 35",
-  "email": "helmich@hooglanderveen.eu",
-  "facebook": "https://www.facebook.com/uwschoonheidsspecialistinhooglanderveen",
-  "straat": "van Tuyllstraat 15",
-  "postcodePlaats": "3829 AA Hooglanderveen",
-  "afspraakPlanner": "https://www.wega.nl/deployment/afspraakvastleggen.dll/?ID=FBDB2F11-9DEF-4865-B5F0-B41FC4883B7A",
-  "footerBanner": "Wij hebben ook cadeaubonnen! Neem contact met ons op voor meer informatie",
   "footerBannerLink": "/contact/",
+  "straat": "van Tuyllstraat 15",
+  "facebook": "https://www.facebook.com/uwschoonheidsspecialistinhooglanderveen",
+  "footerBanner": "Wij hebben ook cadeaubonnen! Neem contact met ons op voor meer informatie",
+  "postcodePlaats": "3829 AA Hooglanderveen",
+  "telefoonDisplay": "06 83 51 15 35",
+  "telefoon": "0031683511535",
+  "openinghours": [
+    {
+      "day": "Maandag",
+      "hours": "Gesloten"
+    },
+    {
+      "day": "Dinsdag",
+      "hours": "9:00 - 17:00"
+    },
+    {
+      "day": "Woensdag",
+      "hours": "8:30 - 17:30"
+    },
+    {
+      "day": "Donderdag",
+      "hours": "9:00 - 17:30"
+    },
+    {
+      "day": "Vrijdag",
+      "hours": "9:00 - 18:00"
+    },
+    {
+      "day": "Zaterdag",
+      "hours": "8:00 - 15:00"
+    },
+    {
+      "day": "Zondag",
+      "hours": "Gesloten"
+    }
+  ],
+  "afspraakPlanner": "https://www.wega.nl/deployment/afspraakvastleggen.dll/?ID=FBDB2F11-9DEF-4865-B5F0-B41FC4883B7A",
   "links": [
     {
       "text": "Gezichtsbehandelingen",
@@ -34,34 +63,5 @@
       "href": "/contact/"
     }
   ],
-  "openinghours": [
-    {
-      "day": "Maandag",
-      "hours": "Gesloten"
-    },
-    {
-      "day": "Dinsdag",
-      "hours": "9:00 - 21:00"
-    },
-    {
-      "day": "Woensdag",
-      "hours": "8:30 - 17:30"
-    },
-    {
-      "day": "Donderdag",
-      "hours": "9:00 - 17:30"
-    },
-    {
-      "day": "Vrijdag",
-      "hours": "9:00 - 18:00"
-    },
-    {
-      "day": "Zaterdag",
-      "hours": "8:00 - 15:00"
-    },
-    {
-      "day": "Zondag",
-      "hours": "Gesloten"
-    }
-  ]
+  "email": "helmich@hooglanderveen.eu"
 }

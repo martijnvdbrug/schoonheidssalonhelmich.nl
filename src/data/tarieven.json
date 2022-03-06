@@ -7,12 +7,12 @@
       "items": [
         {
           "name": "90 minuten",
-          "price": "vanaf €65,-",
+          "price": "vanaf €67.-",
           "link": "/verzorgende-gezichtsbehandelingen/"
         },
         {
           "name": "60 minuten",
-          "price": "vanaf €50,-",
+          "price": "vanaf €52.-",
           "link": "/verzorgende-gezichtsbehandelingen/"
         }
       ]
@@ -22,12 +22,12 @@
       "items": [
         {
           "name": "Acne",
-          "price": "€42,50",
+          "price": "€41.-",
           "link": "/acne/"
         },
         {
           "name": "Acne incl. fruitzuur",
-          "price": "€50,-",
+          "price": "€55,-",
           "link": "/acne/"
         },
         {
@@ -47,7 +47,7 @@
         },
         {
           "name": "Neuro Sensitive",
-          "price": "€65,-",
+          "price": "€67,-",
           "link": ""
         },
         {
@@ -97,17 +97,17 @@
       "items": [
         {
           "name": "Dagmake-up / Proefmake-up",
-          "price": "€30,-",
+          "price": "€37,50",
           "link": ""
         },
         {
           "name": "Bruidsmake-up",
-          "price": "€45,-",
+          "price": "€47,50",
           "link": ""
         },
         {
           "name": "Bruidsarrangement: 90 min. behandeling, proef- en bruidsmake-up\n",
-          "price": "€125,-",
+          "price": "€140,00",
           "link": ""
         }
       ]
@@ -116,12 +116,12 @@
       "title": "Massages",
       "items": [
         {
-          "name": "Lichaamsmassage",
-          "price": "€55,-",
+          "name": "Lichaamsmassage 60 minuten",
+          "price": "€60,00",
           "link": ""
         },
         {
-          "name": "Rug-nek-schoudermassage",
+          "name": "Rug-nek-schoudermassage 30 minuten",
           "price": "€35,-",
           "link": ""
         },
@@ -132,7 +132,7 @@
         },
         {
           "name": "Hotstone 60 minuten",
-          "price": "€63,-",
+          "price": "€67,-",
           "link": ""
         }
       ]
@@ -152,17 +152,17 @@
       "items": [
         {
           "name": "Wenkbrauwen",
-          "price": "€12,-",
+          "price": "€12,50",
           "link": ""
         },
         {
           "name": "Wimpers",
-          "price": "€14,-",
+          "price": "€15,-",
           "link": ""
         },
         {
           "name": "Wimpers en wenkbrauwen",
-          "price": "€20,-",
+          "price": "€23,-",
           "link": ""
         }
       ]
@@ -172,22 +172,22 @@
       "items": [
         {
           "name": "Wenkbrauwen",
-          "price": "€12,-",
+          "price": "€15,-",
           "link": ""
         },
         {
           "name": "Wenkbrauwen en lip",
-          "price": "€23,-",
+          "price": "€24,-",
           "link": ""
         },
         {
           "name": "Wenkbrauwen, lip en kin",
-          "price": "€25,-",
+          "price": "€26,-",
           "link": ""
         },
         {
           "name": "Wenkbrauwen, lip, kin en kaaklijn",
-          "price": "€29,-",
+          "price": "€30,-",
           "link": ""
         }
       ]
@@ -202,7 +202,7 @@
         },
         {
           "name": "Lip en Kin",
-          "price": "€18,-",
+          "price": "€20,-",
           "link": ""
         },
         {
@@ -211,7 +211,7 @@
           "link": ""
         },
         {
-          "name": "Armen",
+          "name": "Onderarmen",
           "price": "€20,-",
           "link": ""
         },
@@ -227,12 +227,12 @@
         },
         {
           "name": "Bikinilijn",
-          "price": "€20,-",
+          "price": "€22.50",
           "link": ""
         },
         {
           "name": "Benen incl. bikinilijn",
-          "price": "€60,-",
+          "price": "€62,50",
           "link": ""
         },
         {

@@ -117,7 +117,7 @@
       "items": [
         {
           "name": "Lichaamsmassage 60 minuten",
-          "price": "€60,00",
+          "price": "€65,00",
           "link": ""
         },
         {
@@ -132,7 +132,7 @@
         },
         {
           "name": "Hotstone 60 minuten",
-          "price": "€67,-",
+          "price": "€65,-",
           "link": ""
         }
       ]
@@ -172,7 +172,7 @@
       "items": [
         {
           "name": "Wenkbrauwen",
-          "price": "€15,-",
+          "price": "€17,-",
           "link": ""
         },
         {
@@ -222,7 +222,7 @@
         },
         {
           "name": "Onderbenen",
-          "price": "€27,50",
+          "price": "€28,50",
           "link": ""
         },
         {

@@ -122,17 +122,17 @@
         },
         {
           "name": "Rug-nek-schoudermassage 30 minuten",
-          "price": "€37,-",
+          "price": "€35,-",
           "link": ""
         },
         {
           "name": "Hotstone 40 minuten",
-          "price": "€49,-",
+          "price": "€47,-",
           "link": ""
         },
         {
           "name": "Hotstone 60 minuten",
-          "price": "€67,-",
+          "price": "€65,-",
           "link": ""
         }
       ]
@@ -142,7 +142,7 @@
       "items": [
         {
           "name": "Henna wenkbrauwen",
-          "price": "€32,-",
+          "price": "€30,-",
           "link": "/henna-wenkbrauwen/"
         }
       ]
@@ -152,17 +152,17 @@
       "items": [
         {
           "name": "Wenkbrauwen",
-          "price": "€13,50",
+          "price": "€12,50",
           "link": ""
         },
         {
           "name": "Wimpers",
-          "price": "€16,-",
+          "price": "€15,-",
           "link": ""
         },
         {
           "name": "Wimpers en wenkbrauwen",
-          "price": "€25,-",
+          "price": "€23,-",
           "link": ""
         }
       ]
@@ -172,22 +172,22 @@
       "items": [
         {
           "name": "Wenkbrauwen",
-          "price": "€18,-",
+          "price": "€17,-",
           "link": ""
         },
         {
           "name": "Wenkbrauwen en lip",
-          "price": "€25,-",
+          "price": "€24,-",
           "link": ""
         },
         {
           "name": "Wenkbrauwen, lip en kin",
-          "price": "€27,-",
+          "price": "€26,-",
           "link": ""
         },
         {
           "name": "Wenkbrauwen, lip, kin en kaaklijn",
-          "price": "€32,-",
+          "price": "€30,-",
           "link": ""
         }
       ]
@@ -197,52 +197,52 @@
       "items": [
         {
           "name": "Lip of kin",
-          "price": "€17,-",
+          "price": "€16,-",
           "link": ""
         },
         {
           "name": "Lip en Kin",
-          "price": "€22,-",
+          "price": "€20,-",
           "link": ""
         },
         {
           "name": "Lip, kin en kaaklijn",
-          "price": "€27,-",
-          "link": ""
-        },
-        {
-          "name": "Onderarmen",
-          "price": "€22,-",
-          "link": ""
-        },
-        {
-          "name": "Benen",
-          "price": "€47,-",
-          "link": ""
-        },
-        {
-          "name": "Onderbenen",
-          "price": "€30,-",
-          "link": ""
-        },
-        {
-          "name": "Bikinilijn",
           "price": "€25,-",
           "link": ""
         },
         {
+          "name": "Onderarmen",
+          "price": "€20,-",
+          "link": ""
+        },
+        {
+          "name": "Benen",
+          "price": "€45,-",
+          "link": ""
+        },
+        {
+          "name": "Onderbenen",
+          "price": "€28,50",
+          "link": ""
+        },
+        {
+          "name": "Bikinilijn",
+          "price": "€22.50",
+          "link": ""
+        },
+        {
           "name": "Benen incl. bikinilijn",
-          "price": "€67,-",
+          "price": "€62,50",
           "link": ""
         },
         {
           "name": "Oksels",
-          "price": "€22,-",
+          "price": "€20,-",
           "link": ""
         },
         {
           "name": "Borst of rug",
-          "price": "€30,-",
+          "price": "€28,50",
           "link": ""
         }
       ]

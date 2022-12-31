@@ -142,7 +142,7 @@
       "items": [
         {
           "name": "Henna wenkbrauwen",
-          "price": "€30,-",
+          "price": "€32,-",
           "link": "/henna-wenkbrauwen/"
         }
       ]
@@ -152,17 +152,17 @@
       "items": [
         {
           "name": "Wenkbrauwen",
-          "price": "€12,50",
+          "price": "€13,50",
           "link": ""
         },
         {
           "name": "Wimpers",
-          "price": "€15,-",
+          "price": "€16,-",
           "link": ""
         },
         {
           "name": "Wimpers en wenkbrauwen",
-          "price": "€23,-",
+          "price": "€25,-",
           "link": ""
         }
       ]

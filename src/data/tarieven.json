@@ -117,22 +117,22 @@
       "items": [
         {
           "name": "Lichaamsmassage 60 minuten",
-          "price": "€65,00",
+          "price": "€67,00",
           "link": ""
         },
         {
           "name": "Rug-nek-schoudermassage 30 minuten",
-          "price": "€35,-",
+          "price": "€37,-",
           "link": ""
         },
         {
           "name": "Hotstone 40 minuten",
-          "price": "€47,-",
+          "price": "€49,-",
           "link": ""
         },
         {
           "name": "Hotstone 60 minuten",
-          "price": "€65,-",
+          "price": "€67,-",
           "link": ""
         }
       ]

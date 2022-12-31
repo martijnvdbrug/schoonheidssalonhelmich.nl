@@ -22,12 +22,12 @@
       "items": [
         {
           "name": "Acne",
-          "price": "€41.-",
+          "price": "€42.-",
           "link": "/acne/"
         },
         {
           "name": "Acne incl. fruitzuur",
-          "price": "€55,-",
+          "price": "€60,-",
           "link": "/acne/"
         },
         {
@@ -47,7 +47,7 @@
         },
         {
           "name": "Neuro Sensitive",
-          "price": "€67,-",
+          "price": "€70,-",
           "link": ""
         },
         {
@@ -87,7 +87,7 @@
         },
         {
           "name": "Hydra boost",
-          "price": "€15,-",
+          "price": "€18,-",
           "link": ""
         }
       ]

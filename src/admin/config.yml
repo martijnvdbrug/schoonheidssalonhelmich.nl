@@ -80,8 +80,8 @@ collections:
               - { label: Link, name: link, widget: string }
               - { label: Afbeelding, name: image, widget: image }
       - label: "Henna wenkbrauwen"
-        name: "henna-brows"
-        file: "src/data/henna-brows.json"
+        name: "Voetreflex"
+        file: "src/data/voetreflex.json"
         create: false
         identifier_field: name
         fields:

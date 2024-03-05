@@ -93,26 +93,6 @@
       ]
     },
     {
-      "title": "Make-up",
-      "items": [
-        {
-          "name": "Dagmake-up / Proefmake-up",
-          "price": "€38,50",
-          "link": ""
-        },
-        {
-          "name": "Bruidsmake-up",
-          "price": "€47,50",
-          "link": ""
-        },
-        {
-          "name": "Bruidsarrangement: 90 min. behandeling, proef- en bruidsmake-up\n",
-          "price": "€147,50",
-          "link": ""
-        }
-      ]
-    },
-    {
       "title": "Massages",
       "items": [
         {
@@ -134,16 +114,6 @@
           "name": "Hotstone 60 minuten",
           "price": "€67,-",
           "link": ""
-        }
-      ]
-    },
-    {
-      "title": "Henna wenkbrauwen",
-      "items": [
-        {
-          "name": "Henna wenkbrauwen",
-          "price": "€32,-",
-          "link": "/henna-wenkbrauwen/"
         }
       ]
     },

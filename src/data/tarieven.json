@@ -236,32 +236,32 @@
       "items": [
         {
           "name": "Wenkbrauwen nieuw",
-          "price": "€325,-",
+          "price": "€350,-",
           "link": "/permanente-makeup/"
         },
         {
           "name": "Wenkbrauwen opfrissen",
-          "price": "€150,-",
-          "link": "/permanente-makeup/"
-        },
-        {
-          "name": "Eyeliner boven",
           "price": "€175,-",
           "link": "/permanente-makeup/"
         },
         {
+          "name": "Eyeliner boven",
+          "price": "€195,-",
+          "link": "/permanente-makeup/"
+        },
+        {
           "name": "Eyeliner onder",
-          "price": "€150,-",
+          "price": "€175,-",
           "link": "/permanente-makeup/"
         },
         {
           "name": "Eyeliner boven en onder",
-          "price": "€295,-",
+          "price": "€325,-",
           "link": "/permanente-makeup/"
         },
         {
           "name": "Eyeliner boven opfrissen",
-          "price": "€125,-",
+          "price": "€150,-",
           "link": "/permanente-makeup/"
         },
         {
@@ -271,17 +271,17 @@
         },
         {
           "name": "Eyeliner boven en onder opfrissen",
-          "price": "€150,-",
+          "price": "€200,-",
           "link": "/permanente-makeup/"
         },
         {
           "name": "Lipliner",
-          "price": "€325,-",
+          "price": "€350,-",
           "link": "/permanente-makeup/"
         },
         {
           "name": "Lipliner opfrissen",
-          "price": "€150,-",
+          "price": "€175,-",
           "link": "/permanente-makeup/"
         }
       ]
